@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Russo+One&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.font-inter-basic {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.font-heavy {
+    font-weight: 700 !important;
+}
+
+.font-medium {
+    font-weight: 600 !important;
+}
+
+.font-light {
+    font-weight: 400 !important;
+}
+
+.container {
+    position: absolute;
+    width: 90vw; 
+    height:90vh;
+    background-color: hsl(0, 0%, 8%);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardarea {
+
+ background-color: hsl(0, 0%, 12%);
+ border-radius: 7px;
+ max-width: 275px;
+ min-width: 275px;
+ margin-left: auto;
+ margin-right: auto;
+ padding-left: 20px;
+ padding-right: 20px;
+ padding-top: 30px;
+ padding-bottom: 30px;
+ box-sizing: border-box;
+ color: white;
+ font-size: 12px;
+ text-align: center;
+
+}
+
+.fake-button {
+
+    background-color: hsl(0, 0%, 20%);
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 15px;
+    text-align: center;
+    padding-top: 9px;
+    box-sizing: border-box;
+
+}
+
+.socialheader {
+
+    margin-bottom: 0px;
+
+}
+
+.sociallocation {
+
+    margin-top: 7px;
+    color: hsl(75, 94%, 57%);
+
+}
+
+.socialpicture {
+
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+}
+
+.socialdescription {
+
+    margin-top: 20px;
+
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+body {
+
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+
+}
